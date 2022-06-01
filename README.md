@@ -5,7 +5,7 @@
 |-------|--------|
 | Project Name | Bookmark |
 | Team Members | Fernando Galvan, Brianna Gaines, Kelly Luu |
-| Live Website | https://dazzling-rabanadas-faa54f.netlify.app/ |
+| Live Website | link |
 | Trello Board | https://trello.com/b/x0E1bB9H/bookmarkd |
 
 ## Technologies & Dependencies to be used:
@@ -36,7 +36,7 @@ flowchart LR
   App-->Main
   Main-->Router
   Router-->Index
-  Index-->New
+  Router-->New
 ```
 
 ## User Interface Mockups
