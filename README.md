@@ -6,6 +6,8 @@
 | Project Name | Bookmark |
 | Team Members | Fernando Galvan, Brianna Gaines, Kelly Luu |
 | Live Website | link |
+| Frontend Repo | https://github.com/NandoLofi/bookmarks-frontend |
+| Backend Repo |  https://github.com/briannag31/bookmarkd-backend |
 | Trello Board | https://trello.com/b/x0E1bB9H/bookmarkd |
 
 ## Technologies & Dependencies to be used:
