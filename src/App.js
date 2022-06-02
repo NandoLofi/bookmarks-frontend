@@ -27,10 +27,7 @@ function addBookmark(evt){
 
   return (
     <div className="App">
-<<<<<<< HEAD
       <Header />
-=======
->>>>>>> 1ca9342ffaab754e3fa0de6c7e6f8b8206a4859f
 
     </div>
   );
