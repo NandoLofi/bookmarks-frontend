@@ -8,7 +8,6 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-router": "^6.3.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -40,15 +39,12 @@
   "description": "**Summary** | Field | Detail | |-------|--------| | Project Name | Bookmark | | Team Members | Fernando Galvan, Brianna Gaines, Kelly Luu | | Live Website | link | | Frontend Repo | https://github.com/NandoLofi/bookmarks-frontend | | Backend Repo |  https://github.com/briannag31/bookmarkd-backend | | Trello Board | https://trello.com/b/x0E1bB9H/bookmarkd |",
   "main": "index.js",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NandoLofi/bookmarks-frontend.git"
+    "type": "git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NandoLofi/bookmarks-frontend/issues"
   },
-  "homepage": "https://github.com/NandoLofi/bookmarks-frontend#readme",
   "devDependencies": {
     "nodemon": "^2.0.16"
   }
