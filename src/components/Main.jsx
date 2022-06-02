@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import {Routes, Route} from "react-router-dom"
 import Index from "../pages/Index"
-import Bookmark from "../pages/Bookmark"
+import Edit from "../pages/Edit"
 import New from "../pages/New"
 
 function Main (props){
@@ -53,7 +53,7 @@ function Main (props){
                     bookmark={bookmark}
                 />}/>
                 <Route path="/bookmark/:id" 
-                element={<Bookmark 
+                element={<Edit 
                 bookmark={bookmark} 
                 updateBookmark={updateBookmark} 
                 deleteBookmark={deleteBookmark}

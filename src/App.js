@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -20,6 +21,10 @@ function App() {
         </a>
       </header>
 =======
+      <Main/>
+>>>>>>> Stashed changes
+=======
+      <Header/>
       <Main/>
 >>>>>>> Stashed changes
     </div>
