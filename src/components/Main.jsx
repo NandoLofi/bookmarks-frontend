@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import {Routes, Route} from "react-router-dom"
 import Index from "../pages/Index"
 import Edit from "../pages/Edit"
-import New from "../pages/New"
+
 
 function Main (props){
     const [bookmark, setBookmark] = useState(null)
@@ -51,16 +51,13 @@ function Main (props){
                 <Route  path="/" 
                 element={<Index 
                     bookmark={bookmark}
+                    createBookmark={createBookmark}
                 />}/>
                 <Route path="/bookmark/:id" 
                 element={<Edit 
                 bookmark={bookmark} 
                 updateBookmark={updateBookmark} 
                 deleteBookmark={deleteBookmark}
-                />}/>
-                <Route path="/new"
-                element={<New 
-                createBookmark={createBookmark}
                 />}/>
             </Routes>
         </main>
