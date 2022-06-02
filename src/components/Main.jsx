@@ -6,7 +6,7 @@ import New from "../pages/New"
 
 function Main (props){
     const [bookmark, setBookmark] = useState(null)
-    const URL = "INSERT URL"
+    const URL = "https://bookmarked-backend2022.herokuapp.com/bookmark"
 
     const getBookmark = async ()=>{
         const res = await fetch(URL)
