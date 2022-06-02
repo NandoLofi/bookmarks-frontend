@@ -48,7 +48,7 @@
   "bugs": {
     "url": "https://github.com/NandoLofi/bookmarks-frontend/issues"
   },
-  "homepage": "https://github.com/NandoLofi/bookmarks-frontend#readme",
+  "homepage": "/",
   "devDependencies": {
     "nodemon": "^2.0.16"
   }

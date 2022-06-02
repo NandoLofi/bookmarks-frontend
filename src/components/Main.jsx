@@ -3,6 +3,7 @@ import {Routes, Route} from "react-router-dom"
 import Index from "../pages/Index"
 import Bookmark from "../pages/Bookmark"
 import New from "../pages/New"
+import {useParams} from 'react-router-dom'
 
 function Main (props){
     const [bookmark, setBookmark] = useState(null)

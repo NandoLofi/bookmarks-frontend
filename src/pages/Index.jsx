@@ -2,6 +2,12 @@ import React from 'react'
 
 export default function Index() {
   return (
-    <div>Index</div>
+    <div>
+        <div className='container'>
+            <h3>Bookmarks</h3>
+            
+
+        </div>
+    </div>
   )
 }
