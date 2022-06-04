@@ -1,4 +1,5 @@
 import './App.css';
+import './bootstrap.css'
 import Header from './components/Header'
 import Main from './components/Main';
 

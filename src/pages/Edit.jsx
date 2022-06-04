@@ -16,7 +16,7 @@ function Edit (props){
     }
     const handleSubmit = (event)=>{
         event.preventDefault()
-        props.updateMenu(editForm, item._id)
+        props.updateBookmark(editForm, item._id)
         navigate("/")
     }
     const removeItem = ()=>{
@@ -25,12 +25,12 @@ function Edit (props){
     }
 
     return (
-        <div className="updateItem">
+        <div className="m-3">
             <h1>{item.name}</h1>
             <h3>{item.url}</h3>
-            <button id="delete" onClick={removeItem}>DELETE</button>
-            <form onSubmit={handleSubmit}>
-                <input
+            <button className="btn btn-danger" onClick={removeItem}>DELETE</button>
+            <form className="form-group row m-5" onSubmit={handleSubmit}>
+                <input className="form-label mt-4"
                     type="text"
                     value={editForm.name}
                     name="name"
@@ -38,7 +38,7 @@ function Edit (props){
                     onChange={handleChange}
                     required
                 />
-                <input
+                <input className="form-label mt-4"
                     type="text"
                     value={editForm.url}
                     name="url"
@@ -46,7 +46,7 @@ function Edit (props){
                     onChange={handleChange}
                     required
                 />
-                <input className="updateBtn" type="submit" value ="Update Bookmark"/>
+                <input className="btn btn-primary mt-3" type="submit" value ="Update Bookmark"/>
             </form>
         </div>
     )

@@ -31,17 +31,17 @@ export default function Index (props){
                     <fieldset>
                     <legend>Create New Bookmark</legend>
                     <label htmlFor="name">Name</label>
-                    <input type ="text" name="name" value={newForm.name} onChange={handleChange} required/>
+                    <input className="form-label m-2" type ="text" name="name" value={newForm.name} onChange={handleChange} required/>
                     <label htmlFor ="url"> Url</label>
-                    <input type ="text" name="url" value ={newForm.url} onChange={handleChange} required/>
-                    <input type ="submit" value="create bookmark"/>
+                    <input className="form-label m-2" type ="text" name="url" value ={newForm.url} onChange={handleChange} required/>
+                    <input className="btn btn-primary" type ="submit" value="create bookmark"/>
                     </fieldset>
                    {props.bookmark.map((bookmark)=>(
-            <div key ={bookmark._id}>
-               <h1><a href={bookmark.url}>{bookmark.name}</a>
-              <Link to ={`/bookmark/${bookmark._id}`}>
-              <button>update</button>
-              </Link> </h1>
+            <div className="m-4" key ={bookmark._id}>
+               <h3><a href={bookmark.url}>{bookmark.name} </a> 
+              <Link to ={`/bookmark/${bookmark._id}`}>  
+              <button type="button" className="btn btn-primary btn-sm ml-2">update</button>
+              </Link> </h3>
             </div>
 
 ))

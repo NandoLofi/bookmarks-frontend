@@ -1,5 +1,7 @@
 export default function Header (){
     return (
-        <h1>Header</h1>
+        <div className="animate__animated animate__wobble">
+        <h1><a href="/">My Bookmarks</a></h1>
+        </div>
     )
 }
