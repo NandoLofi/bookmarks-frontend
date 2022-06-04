@@ -9,6 +9,7 @@
 | Frontend Repo | https://github.com/NandoLofi/bookmarks-frontend |
 | Backend Repo |  https://github.com/briannag31/bookmarkd-backend2 |
 | Trello Board | https://trello.com/b/x0E1bB9H/bookmarkd |
+| Netlify App| https://gregarious-seahorse-adf84e.netlify.app/ |
 
 ## Technologies & Dependencies to be used:
 - JavaScript
