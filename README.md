@@ -5,7 +5,6 @@
 |-------|--------|
 | Project Name | Bookmark |
 | Team **Sharknado** | Fernando Galvan, Brianna Gaines, Kelly Luu |
-| Live Website | link |
 | Frontend Repo | https://github.com/NandoLofi/bookmarks-frontend |
 | Backend Repo |  https://github.com/briannag31/bookmarkd-backend2 |
 | Trello Board | https://trello.com/b/x0E1bB9H/bookmarkd |
@@ -41,5 +40,3 @@ flowchart LR
   Router-->Index
   Router-->Edit
 ```
-
-## User Interface Mockups
