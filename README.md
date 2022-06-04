@@ -38,7 +38,7 @@ flowchart LR
   App-->Main
   Main-->Router
   Router-->Index
-  Router-->New
+  Router-->Edit
 ```
 
 ## User Interface Mockups
